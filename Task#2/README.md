@@ -34,7 +34,3 @@ X = df.drop(columns=['Churn'])
 preds = pipeline.predict(X)
 ```
 
-## Notes
-
-- No GUI is included. This is a command-line and notebook-based workflow.
-- If you want, I can also add a direct inference script to print predictions from the exported model.
